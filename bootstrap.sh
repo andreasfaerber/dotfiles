@@ -5,6 +5,9 @@ cd "$(dirname "${BASH_SOURCE}")";
 git pull origin master;
 
 function doIt() {
+	if [ ! -d ~/liquidprompt ]; then
+		git clone https://github.com/nojhan/liquidprompt.git ~/liquidprompt
+	fi
 	rsync --exclude ".git/" \
 		--exclude ".DS_Store" \
 		--exclude ".osx" \
