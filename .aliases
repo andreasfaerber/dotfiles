@@ -149,3 +149,6 @@ alias reload="exec ${SHELL} -l"
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
+
+alias root='~/bin/rootlogin.sh'
+alias mosh='mosh --server="LANG=en_US.UTF-8 mosh-server"'
