@@ -42,6 +42,7 @@ brew install grep
 brew install openssh
 brew install mosh
 brew install screen
+brew install tmux
 ## brew install homebrew/php/php56 --with-gmp
 
 ## # Install font tools.
@@ -53,7 +54,7 @@ brew install screen
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
 ## brew install aircrack-ng
 ## brew install bfg
-brew install binutils
+## brew install binutils
 ## brew install binwalk
 ## brew install cifer
 ## brew install dex2jar
@@ -68,12 +69,12 @@ brew install binutils
 brew install nmap
 ## brew install pngcheck
 brew install socat
-#brew install sqlmap
+## brew install sqlmap
 ## brew install tcpflow
 ## brew install tcpreplay
 ## brew install tcptrace
 ## brew install ucspi-tcp # `tcpserver` etc.
-brew install xpdf
+## brew install xpdf
 brew install xz
 
 # Install other useful binaries.
@@ -87,8 +88,8 @@ brew install git-lfs
 ## brew install p7zip
 brew install pigz
 brew install pv
-brew install rename
-brew install rlwrap
+## brew install rename
+## brew install rlwrap
 brew install ssh-copy-id
 brew install tree
 brew install vbindiff
